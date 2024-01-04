@@ -1,3 +1,6 @@
 /Users/jumafernandez/development/snake/build/CMakeFiles/snakegame.dir
 /Users/jumafernandez/development/snake/build/CMakeFiles/edit_cache.dir
 /Users/jumafernandez/development/snake/build/CMakeFiles/rebuild_cache.dir
+/Users/jumafernandez/development/snake/build/SRC/CMakeFiles/engine.dir
+/Users/jumafernandez/development/snake/build/SRC/CMakeFiles/edit_cache.dir
+/Users/jumafernandez/development/snake/build/SRC/CMakeFiles/rebuild_cache.dir

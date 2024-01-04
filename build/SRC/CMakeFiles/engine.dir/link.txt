@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libengine.a CMakeFiles/engine.dir/engine/CustomSDL.cpp.o CMakeFiles/engine.dir/engine/Window.cpp.o CMakeFiles/engine.dir/engine/KeyboardInput.cpp.o CMakeFiles/engine.dir/engine/Engine.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libengine.a

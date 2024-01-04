@@ -129,6 +129,19 @@ snakegame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snakegame.dir/build.make CMakeFiles/snakegame.dir/build
 .PHONY : snakegame/fast
 
+#=============================================================================
+# Target rules for targets named engine
+
+# Build rule for target.
+engine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine
+.PHONY : engine
+
+# fast build rule for target.
+engine/fast:
+	$(MAKE) $(MAKESILENT) -f SRC/CMakeFiles/engine.dir/build.make SRC/CMakeFiles/engine.dir/build
+.PHONY : engine/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -161,6 +174,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... engine"
 	@echo "... snakegame"
 	@echo "... main.o"
 	@echo "... main.i"

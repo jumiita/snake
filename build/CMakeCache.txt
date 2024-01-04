@@ -97,7 +97,7 @@ CMAKE_INSTALL_PREFIX:PATH=/usr/local
 CMAKE_LINKER:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ld
 
 //Path to a program.
-CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
+CMAKE_MAKE_PROGRAM:FILEPATH=/opt/homebrew/bin/gmake
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -214,15 +214,6 @@ CMAKE_TAPI:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/tapi
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-snake_BINARY_DIR:STATIC=/Users/jumafernandez/development/snake/build
-
-//Value Computed by CMake
-snake_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-snake_SOURCE_DIR:STATIC=/Users/jumafernandez/development/snake
-
-//Value Computed by CMake
 snakegame_BINARY_DIR:STATIC=/Users/jumafernandez/development/snake/build
 
 //Value Computed by CMake
@@ -330,7 +321,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

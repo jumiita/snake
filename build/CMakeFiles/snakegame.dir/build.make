@@ -92,6 +92,7 @@ snakegame_EXTERNAL_OBJECTS =
 
 snakegame: CMakeFiles/snakegame.dir/main.cpp.o
 snakegame: CMakeFiles/snakegame.dir/build.make
+snakegame: SRC/libengine.a
 snakegame: CMakeFiles/snakegame.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jumafernandez/development/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable snakegame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/snakegame.dir/link.txt --verbose=$(VERBOSE)
